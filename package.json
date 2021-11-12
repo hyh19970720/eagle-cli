@@ -1,0 +1,28 @@
+{
+  "name": "eagle-cli",
+  "version": "1.0.0",
+  "description": "it is a demo cli",
+  "main": "index.js",
+  "bin": {
+    "suc": "./bin/mvc.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderEagleH/eagle-cli.git"
+  },
+  "author": "hyh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderEagleH/eagle-cli/issues"
+  },
+  "homepage": "https://github.com/coderEagleH/eagle-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.0"
+  }
+}
