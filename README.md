@@ -16,7 +16,7 @@
   - utils
     + global.js
   - .gitignore
-  - package-lock.json
+  - package-lock.jsonaaa
   - package.json
   - README.md
 ```
