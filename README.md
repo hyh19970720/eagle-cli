@@ -12,7 +12,10 @@
   - bin
     + mvc.js
   - lib
+    + main.js
     + propmts.js
+    + ora.js
+    + chalk.js
   - utils
     + global.js
   - .gitignore
@@ -40,10 +43,19 @@
 ```
 
 #### 注意：
-- `suc`为当前设置的指令，可以修改;
+
+- `suc-cli`为当前设置的指令，可以修改;
 
 - 修改首先要在脚手架目录下执行`npm unlink`，解除全局链接;
 
 - 然后重新下载依赖`npm install`;
 
 - 在`package.json`文件夹中将`bin`字段下的键进行修改，然后重新`npm link`即可;
+
+#### 报错解决方法:
+
+ - 如果遇到报错说`suc-cli`已存在等，说明在环境变量中存在`suc-cli`;
+
+ - 应在`package.json`文件夹中将`bin`字段下的键进行修改;
+
+ - 然后执行`npm link`;
